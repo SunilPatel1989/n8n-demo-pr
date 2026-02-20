@@ -3,7 +3,8 @@ for i in range(1, 6):
     print("Number:", i)
 
 
-fruits = ["apple", "banana", "cherry"]
+count = 1
 
-for fruit in fruits:
-    print("Fruit:", fruit)
+while count <= 5:
+    print("Count:", count)
+    count += 1
